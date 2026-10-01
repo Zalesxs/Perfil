@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: center;
+    margin: 0;
+    background-color: rgb(114, 242, 251);
+    font-family: Arial;
+}
+
+h1{
+    align-self: center;
+}
+h3{
+align-self: center;
+}   
+.perfil p{
+    margin: 2px;
+}
+
+img{
+    margin: 15px;
+    border-radius: 300px;
+    height: 150px;
+    width: 150px;
+    align-self: center;
+}
+a{
+align-self: center;
+}
+
+button{
+    align-items: center;
+    align-self: center;
+    background-color: rgb(67, 123, 253);
+    font-family: sans-serif;
+    width: 350px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: 17px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease-in-out; 
+}
+
+button:hover{
+    background-color: rgb(54, 96, 195);
+}
+
+.perfil{
+    width: 400px;
+    padding: 30px;
+    border-radius: 15px;;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 5px 10px 30px rgba(0,0,0,0.8)
+}
+
